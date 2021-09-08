@@ -1,0 +1,71 @@
+body{
+    color: rgb(61,61,61);
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+}
+ #BtnHeader {
+
+    margin: 20px;
+
+} 
+ /* header{
+    height: 400px;
+   
+}
+
+ header h1{
+    font-size: 95px;
+    line-height: 95px;
+    padding-left: 15%;
+ 
+  
+}
+
+header p{
+  padding-left: 20%;
+    margin-top: -20px;
+
+}
+
+#hero {
+   
+     position:absolute; 
+    width: 200;
+    top: 6%;
+   right: -5%;  
+}   */
+
+main{
+    padding-bottom: 120px;
+    padding-left: 90px;
+    text-align: left;
+}
+
+#conditions{
+    margin-top: 120px;
+}
+ 
+#conditions h4,#conditions h2{
+    margin: 0px;
+}
+#conditions h4{
+    margin-top: 30px;
+}
+#conditions h2{
+    margin-top: 30px;
+}
+
+
+form *{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 38px -6px rgba(189,189,189,1);
+    -moz-box-shadow:0px 0px 38px -6px rgba(189,189,189,1);
+    box-shadow:0px 0px 38px -6px rgba(189,189,189,1) ;
+
+}
+
+#next{
+    margin: 50px;
+}

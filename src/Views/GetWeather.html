@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/main.css" type="text/css"></link>
+    <title>Check Weather</title>
+</head>
+<header id="BtnHeader">
+    <button type="button" id="ChangeLang" class="btn btn-info" data-translate="Lang"></button>
+    <button type="button" id="closeApp" class="btn btn-dark"  data-translate="Logout"></button>
+    </header>
+<body id="body">
+
+    <div  style="display: inline-block;">
+        <img src="../Multimedia/Images/taxi-autopilot.png"/>
+    </div>
+    <div  style="display: inline-block;">
+        <h1>Electron <br/> Weather </h1>
+        <!-- <p>illustration by <strong>Ouch.pics</strong></p> -->
+    </div>
+
+    <main>
+        <p data-translate="parag"></p>
+   <form method="POST" id="weatherForm">
+
+
+    <label  data-translate="cityName"></label>
+       <input type="text" id="city"/>
+       <!-- <input type="submit" id="postSubmit" value="Submit" /> -->
+       <button  data-translate="submit" type="submit" id="postSubmit" class="btn btn-outline-warning"></button>
+  
+   </form>
+   
+    </main> 
+    <!-- <button type="button" id="next" class="btn btn-dark"  data-translate="next"></button> -->
+
+   
+</body>
+<script src ="../BusinessLogic/GetWeather.js"></script>
+<script src="../BusinessLogic/ChangeLanguage.js"></script>
+</html>
